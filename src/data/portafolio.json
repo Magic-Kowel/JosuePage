@@ -1,0 +1,50 @@
+[
+    {
+        "img":"https://static.platzi.com/media/porfilio/tap_57f3ce10-fccb-4103-aeee-58b1a4816c6e.PNG",
+        "url":"https://tapterminal.com/",
+        "title":"Page of Tap Terminal",
+        "description":"This is a page of Tap Terminal Its purpose Is to show the go public"
+    },
+    {
+        "img":"https://static.platzi.com/media/porfilio/exchangeofcoins_c3582af7-8929-4270-9e49-3d93278b61bd.PNG",
+        "url":"https://exchange-of-coins.netlify.app/",
+        "title":"Exchange of Coinsl",
+        "description":"This is a App that show a price of cripto coins. Make in vue.js."
+    },
+    {
+        "img":"https://static.platzi.com/media/porfilio/simondice_8cd0e367-be1a-44b6-880a-ec5b6ca71d49.PNG",
+        "url":"https://magic-kowel.github.io/juegoSimonDice/",
+        "title":"Simon Dice",
+        "description":"This is a game on make in javaScript with 10 levels."
+    },
+    {
+        "img":"https://static.platzi.com/media/porfilio/serlimcova_2e85cc66-2c13-4319-9efc-c83a124cf9be.png",
+        "url":"https://magic-kowel.github.io/serlimcova/",
+        "title":"Serlimcova",
+        "description":"Advertising page of serlimcova"
+    },
+    {
+        "img":"https://static.platzi.com/media/porfilio/blog_1c926bf7-725f-4477-9f79-28df006e4fd6.PNG",
+        "url":"https://magic-kowel.github.io/Blog/",
+        "title":"Blog",
+        "description":"Template of Blog"
+    },
+    {
+        "img":"https://static.platzi.com/media/porfilio/desktop_60b31185-8b86-4fb8-9891-513627c23811.PNG",
+        "url":"https://magic-kowel.github.io/beautiful-page/",
+        "title":"Is make using designer web responsive",
+        "description":"bootstrap, UI , UX, diseño web"
+    },
+    {
+        "img":"https://static.platzi.com/media/porfilio/digital-nursing_6711873e-f295-438d-bded-085a646a9226.PNG",
+        "url":"https://github.com/Magic-Kowel/proyec-publicenter",
+        "title":"Digital Nursing",
+        "description":"This is a project of a Nursing with a \n-control of inventory\n-Control of people\n-export on excel"
+    },
+    {
+        "img":"https://static.platzi.com/media/porfilio/rickandmorty_9b22cbd0-9685-4e31-9868-9edb5eea6884.png",
+        "url":"https://magic-kowel.github.io/RickAndMortyApp/",
+        "title":"Rick And Morty",
+        "description":"App de personajes de Rick And Morty"
+    }
+]
