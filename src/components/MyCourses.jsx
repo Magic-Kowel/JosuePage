@@ -7,7 +7,6 @@ import {
 } from '@mui/material';
 import SchoolIcon from '@mui/icons-material/School';
 import SendIcon from '@mui/icons-material/Send';
-import { width } from "@mui/system";
 const MyCourses = () =>{
     return(
         <Box
