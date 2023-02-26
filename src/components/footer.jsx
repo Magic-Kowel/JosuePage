@@ -1,4 +1,7 @@
-import React from "react";
+import React,{useEffect} from "react";
+// importing aos
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 import {
     Box,
     Grid,
@@ -8,6 +11,9 @@ import {
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 const Footer = () =>{
+  useEffect(() => {
+    AOS.init();
+  }, [])
     return(
         <Box
         mt={20}  
@@ -18,6 +24,7 @@ const Footer = () =>{
           <Grid container spacing={2}>
             <Grid  item xs={12} md={12}>
               <Typography
+                data-aos="fade-up"
                 color="white"
                 justifyContent='center'
                sx={{ 
@@ -29,7 +36,12 @@ const Footer = () =>{
                 Thank you for visiting my website. I really appreciate that..🎉 Have an excellent day ....
               </Typography>
             </Grid>
-            <Grid item xs={12} md={12} sx={{ textAlign:'center'}}>
+            <Grid
+              data-aos="fade-up" 
+              item xs={12} 
+              md={12} 
+              sx={{ textAlign:'center'}}
+            >
                 <Link 
                   href="https://github.com/Magic-Kowel" 
                   underline="none">

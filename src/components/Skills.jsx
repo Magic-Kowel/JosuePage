@@ -1,4 +1,7 @@
-import React from "react";
+import React,{useEffect} from "react";
+// importing aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import {
     Grid,
     List,
@@ -22,6 +25,9 @@ import {
 } from "react-icons/si";
 
 const Skills = () =>{
+    useEffect(() => {
+        AOS.init();
+    }, [])
     return(
         <Grid container
         direction="row"
@@ -30,137 +36,138 @@ const Skills = () =>{
          spacing={4}>
             <Grid item xs={12} sm={4}>
                 <List>
-                    <ListItem>
+                    <ListItem   data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
                         <ListItemIcon>
                         <SiCss3
                             size={70} 
                         />
                         </ListItemIcon>
-                        <ListItem>
-                            <ListItemText primary="Css" secondary="Medium" />
-                        </ListItem>
+                        <ListItemText primary="Css" secondary="Medium" />
                     </ListItem>
                 
-                    <ListItem>
+                    <ListItem   data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
                         <ListItemIcon>
                             <SiJavascript
                                 size={70} 
                             />
                         </ListItemIcon>
-                        <ListItem>
                             <ListItemText primary="JavaScript" secondary="Advanced" />
-                        </ListItem>
                     </ListItem>
                
-                    <ListItem>
+                    <ListItem   data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
                         <ListItemIcon>
                             <SiPhp
                                 size={70} 
                             />
                         </ListItemIcon>
-                        <ListItem>
-                            <ListItemText primary="Php" secondary="Advanced" />
-                        </ListItem>
+                        <ListItemText primary="Php" secondary="Advanced" />
                     </ListItem>
                
-                    <ListItem>
+                    <ListItem   data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
                         <ListItemIcon>
                             <SiNodedotjs
                                 size={70} 
                             />
                         </ListItemIcon>
-                        <ListItem>
-                            <ListItemText primary="Node" secondary="Medium" />
-                        </ListItem>
+                        <ListItemText primary="Node" secondary="Medium" />
                     </ListItem>
                 </List>
             </Grid>
             <Grid item xs={12} sm={4}>
                 <List>
-                    <ListItem>
+                    <ListItem   data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
                         <ListItemIcon>
                             <SiGithub
                                 size={70} 
                             />
                         </ListItemIcon>
-                        <ListItem>
-                            <ListItemText primary="Git / Github" secondary="Medium" />
-                        </ListItem>
+                        <ListItemText primary="Git / Github" secondary="Medium" />
                     </ListItem>
-                    <ListItem>
+                    <ListItem   data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
                         <ListItemIcon>
                             <SiBootstrap
                                 size={70} 
                             />
                         </ListItemIcon>
-                        <ListItem>
-                            <ListItemText primary="Bootstrap" secondary="Advanced" />
-                        </ListItem>
+                        <ListItemText primary="Bootstrap" secondary="Advanced" />
                     </ListItem>
-                    <ListItem>
+                    <ListItem   data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
                         <ListItemIcon>
                             <SiMaterialui
                                 size={70} 
                             />
                         </ListItemIcon>
-                        <ListItem>
-                            <ListItemText primary="Material-UI" secondary="Advanced" />
-                        </ListItem>
+                        <ListItemText primary="Material-UI" secondary="Advanced" />
+
                     </ListItem>
-                    <ListItem>
+                    <ListItem   data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
                         <ListItemIcon>
                             <SiReact
                                 size={70} 
                             />
                         </ListItemIcon>
-                        <ListItem>
-                            <ListItemText primary="React" secondary="Medium" />
-                        </ListItem>
+                        <ListItemText primary="React" secondary="Medium" />
                     </ListItem>
                     
                 </List>
             </Grid>
             <Grid item xs={12} sm={4}>
                 <List>
-                        <ListItem>
+                        <ListItem   data-aos="fade-right"
+                                    data-aos-offset="300"
+                                    data-aos-easing="ease-in-sine">
                             <ListItemIcon>
                                 <SiAngularjs
                                     size={70} 
                                 />
                             </ListItemIcon>
-                            <ListItem>
-                                <ListItemText primary="Angular.js" secondary="Medium" />
-                            </ListItem>
+                            <ListItemText primary="Angular.js" secondary="Medium" />
                         </ListItem>
-                        <ListItem>
+                        <ListItem   data-aos="fade-right"
+                                    data-aos-offset="300"
+                                    data-aos-easing="ease-in-sine">
                             <ListItemIcon>
                                 <SiVuedotjs
                                     size={70} 
                                 />
                             </ListItemIcon>
-                            <ListItem>
-                                <ListItemText primary="Vue" secondary="Medium" />
-                            </ListItem>
+                            <ListItemText primary="Vue" secondary="Medium" />
                         </ListItem>
-                        <ListItem>
-                        <ListItemIcon>
-                            <SiHtml5
-                                size={70} 
-                            />
-                        </ListItemIcon>
-                        <ListItem>
+                        <ListItem   data-aos="fade-right"
+                                    data-aos-offset="300"
+                                    data-aos-easing="ease-in-sine">
+                            <ListItemIcon>
+                                <SiHtml5
+                                    size={70} 
+                                />
+                            </ListItemIcon>
                             <ListItemText primary="Html" secondary="Expert" />
                         </ListItem>
-                        </ListItem>
-                        <ListItem>
+                        <ListItem   data-aos="fade-right"
+                                    data-aos-offset="300"
+                                    data-aos-easing="ease-in-sine">
                             <ListItemIcon>
                                 <SiMysql
                                     size={70} 
                                 />
                             </ListItemIcon>
-                            <ListItem>
                                 <ListItemText primary="SQL/Mysql" secondary="Advanced" />
-                            </ListItem>
                         </ListItem>
                 </List>
             </Grid>

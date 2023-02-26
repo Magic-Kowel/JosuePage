@@ -1,4 +1,7 @@
-import React from "react";
+import React,{useEffect} from "react";
+// importing aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -7,12 +10,14 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 const TabledExperience = (props) =>{
-    console.log();
     const {experiences} = props;
+    useEffect(() => {
+        AOS.init();
+    }, [])
     return(
         <TableContainer component={Paper}>
             <Table sx={{ minWidth: 650 }} aria-label="table experience">
-            <TableHead>
+            <TableHead data-aos="zoom-out-down">
                 <TableRow >
                 <TableCell 
                 sx={{ fontSize: '1.2rem',
@@ -43,9 +48,9 @@ const TabledExperience = (props) =>{
                     key={index}
                     sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                 >
-                    <TableCell align="center">{row.Enterprise}</TableCell>
-                    <TableCell align="center">{row.Position}</TableCell>
-                    <TableCell align="center">{row.Time}</TableCell>
+                    <TableCell data-aos="zoom-out-down" align="center">{row.Enterprise}</TableCell>
+                    <TableCell data-aos="zoom-out-down" align="center">{row.Position}</TableCell>
+                    <TableCell data-aos="zoom-out-down" align="center">{row.Time}</TableCell>
                 </TableRow>
                 ))}
             </TableBody>

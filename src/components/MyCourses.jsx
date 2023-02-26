@@ -1,4 +1,7 @@
-import React from "react";
+import React,{useEffect} from "react";
+// importing aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { 
     Box,
     Grid,
@@ -8,6 +11,9 @@ import {
 import SchoolIcon from '@mui/icons-material/School';
 import SendIcon from '@mui/icons-material/Send';
 const MyCourses = () =>{
+    useEffect(() => {
+        AOS.init();
+    }, [])
     return(
         <Box
             m={10}
@@ -16,6 +22,8 @@ const MyCourses = () =>{
             <Grid  >
                 <Grid item md={12}>
                     <Box 
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom"
                         display="flex" 
                         justifyContent="center" 
                         alignItems="center">
@@ -29,6 +37,8 @@ const MyCourses = () =>{
                         />
                     </Box>
                     <Box 
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom"
                         display="flex" 
                         justifyContent="center" 
                         alignItems="center">

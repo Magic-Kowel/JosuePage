@@ -1,4 +1,7 @@
-import React from "react";
+import React,{useEffect} from "react";
+// importing aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import {
     Box,
     Grid,
@@ -8,12 +11,16 @@ import {
 import SchoolIcon from '@mui/icons-material/School';
 import CodeOffIcon from '@mui/icons-material/CodeOff';
 const AboutMe = () =>{
+  useEffect(() => {
+    AOS.init();
+  }, [])
     return(
         <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={2} justify="center">
           <Grid item xs={12} md={4}>
             <Box display="flex" justifyContent="center" alignItems="center">
-              <SchoolIcon 
+              <SchoolIcon
+                data-aos="fade-right"
                 fontSize='large'
                 sx={{
                     textAlign:'center',
@@ -24,7 +31,8 @@ const AboutMe = () =>{
             </Box>
           </Grid>
           <Grid item xs={12} md={8}>
-            <Typography 
+            <Typography
+              data-aos="fade-left"
               variant="h5" 
               component="h3"
               sx={{
@@ -38,7 +46,8 @@ const AboutMe = () =>{
             </Typography>
           </Grid>
           <Grid item xs={12} md={12}>
-            <Typography 
+            <Typography
+                data-aos="zoom-in"
                 variant="h5" 
                 component="h3"
                 mb={4}
@@ -53,7 +62,8 @@ const AboutMe = () =>{
               </Typography>
           </Grid>
           <Grid item xs={12} md={6}>
-            <Typography 
+            <Typography
+                data-aos="fade-right"
                 variant="h5" 
                 component="p"
                 align="justify"
@@ -71,7 +81,8 @@ const AboutMe = () =>{
           </Grid>
           <Grid item xs={12} md={6}>
             <Box display="flex" justifyContent="center" alignItems="center">
-              <CodeOffIcon 
+              <CodeOffIcon
+                data-aos="fade-left"
                 fontSize='large'
                 sx={{
                     textAlign:'center',

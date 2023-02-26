@@ -1,8 +1,15 @@
-import React from "react";
+import React,{useEffect} from "react";
+// importing aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import {Typography} from '@mui/material';
 const Title = ({title}) =>{
+    useEffect(() => {
+        AOS.init();
+      }, [])
     return(
         <Typography 
+            data-aos="fade-up"
             variant="h2" 
             component="h2"
             sx={{
