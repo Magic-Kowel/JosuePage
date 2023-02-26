@@ -8,6 +8,8 @@ import InformationContact from "./components/InformationContact";
 import MyCourses from "./components/MyCourses";
 import Skills from "./components/Skills";
 import Footer from "./components/footer";
+import Seo from "./components/Seo";
+
 import { 
   Box,
   Grid,
@@ -19,6 +21,7 @@ import experiences from "./data/experience.json";
 function App() {
   return (
     <>
+      <Seo />
       <NavBar />
       <Container maxWidth="lg"> 
       <hr id="ABOUT ME" />
