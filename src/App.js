@@ -23,7 +23,11 @@ function App() {
     <>
       <Seo />
       <NavBar />
-      <Container maxWidth="lg"> 
+      <Container fixed>
+      <br />
+      <br />
+      <br />
+      <br />
       <hr id="ABOUT ME" />
       <Title title="ABOUT ME"  />
       <AboutMe />
