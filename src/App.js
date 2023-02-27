@@ -24,7 +24,7 @@ function App() {
     <>
       <Seo />
       <NavBar />
-      <Container fixed>
+      <Container maxWidth="md">
       <br />
       <br />
       <br />
