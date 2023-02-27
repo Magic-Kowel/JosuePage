@@ -1,0 +1,14 @@
+[
+    {
+        "img":"https://static.platzi.com/media/porfilio/reconocimiento_utem_vue_16f60c74-c7aa-4220-bf85-d8587edac4c1.PNG",
+        "url":"https://drive.google.com/file/d/1kJwPtIUWNfChTiP3AmEL4TDWtShlBGGY/view",
+        "title":"Course of Vue.js",
+        "description":"I was giving a Vue.js course to students for a week where I taught basic knowledge of the framework"
+    },
+    {
+        "img":"https://static.platzi.com/media/porfilio/nasa_agradecimiento_0b52181e-015c-49be-b157-686c6c67d8a3.png",
+        "url":"https://github.com/Magic-Kowel/orbitalhope",
+        "title":"Hackathon of NASA",
+        "description":"This is what I did in a NASA hackathon that I participated in and this is dedicated to looking for space junk"
+    }
+]

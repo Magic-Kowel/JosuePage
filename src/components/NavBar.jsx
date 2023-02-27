@@ -10,7 +10,15 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import Link from '@mui/material/Link';
-const pages = ['ABOUT ME','PROJECTS', 'EXPERIENCE', 'CONTACT','My Courses','SKILLS'];
+const pages = [
+  'ABOUT ME',
+  'PROJECTS',
+  'ACKNOWLEDGEMENT',
+  'EXPERIENCE',
+  'CONTACT',
+  'My Courses',
+  'SKILLS'
+];
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

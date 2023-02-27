@@ -1,6 +1,7 @@
 import React from "react";
 import AboutMe from "./components/AboutMe";
 import CardWork from "./components/CardWork";
+import Acknowledgement from "./components/Acknowledgement";
 import NavBar from "./components/NavBar";
 import TabledExperience from "./components/TabledExperience";
 import Title from "./components/Title";
@@ -43,6 +44,9 @@ function App() {
             ))}
           </Grid>
         </Box>
+        <hr id="ACKNOWLEDGEMENT" />
+        <Title title="ACKNOWLEDGEMENT"  />
+        <Acknowledgement />
         <hr id="EXPERIENCE" />
         <Title title="EXPERIENCE"/>
 
