@@ -27,10 +27,6 @@ function App() {
       <NavBar />
       <HerroPerfil />
       <Container maxWidth="md">
-      <br />
-      <br />
-      <br />
-      <br />
       <hr id="ABOUT ME" />
       <Title title="ABOUT ME"  />
       <AboutMe />

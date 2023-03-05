@@ -21,7 +21,7 @@ const HerroPerfil = () =>{
                 //     backgroundPosition: "center",
                 // }}
             >
-                <Grid container spacing={2}>
+                <Grid mt={10} mb={10}  container spacing={2}>
                     <Grid item md={6}>
                     <Typography 
                         gutterBottom={true}
@@ -35,7 +35,7 @@ const HerroPerfil = () =>{
                             Josue Fierro Morfin
                         </Typography>
                     </Grid>
-                    <Grid  mt={10} item md={6}>
+                    <Grid  item md={6}>
                             <Card sx={{ maxWidth: 345 }}>
                                 <CardActionArea>
                                     <CardMedia
