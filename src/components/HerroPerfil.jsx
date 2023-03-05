@@ -1,11 +1,8 @@
 import React from "react";
-import background from '../img/programming.png';
 import perfil from '../img/perfil.jpg';
 import {
     Container,
-    ButtonBase,
     CardActionArea,
-    Box,
     Grid,
     Typography
 } from '@mui/material';
