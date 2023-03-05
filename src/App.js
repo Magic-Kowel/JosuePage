@@ -1,4 +1,4 @@
-import React,{ useEffect, useState } from "react";
+import React from "react";
 import AboutMe from "./components/AboutMe";
 import CardWork from "./components/CardWork";
 import Acknowledgement from "./components/Acknowledgement";
