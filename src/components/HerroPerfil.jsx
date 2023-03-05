@@ -27,6 +27,7 @@ const HerroPerfil = () =>{
                             },
                             "@media (max-width:960px)": {
                                 fontSize: "1.9em",
+                                textAlign: 'center'
                             },
                             fontWeight: 'bold'
                             }}
