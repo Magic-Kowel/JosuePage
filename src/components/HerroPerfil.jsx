@@ -26,9 +26,15 @@ const HerroPerfil = () =>{
                         gutterBottom={true}
                         variant="h1" 
                         component="h1"
-                        mt={15}
                         sx={{
                             color:'#17a2b8',
+                            "@media (min-width:960px)": {
+                                fontSize: "6rem",
+                            },
+                            "@media (max-width:960px)": {
+                                fontSize: "1.9em",
+                            },
+                            fontWeight: 'bold'
                             }}
                         >
                             Josue Fierro Morfin
