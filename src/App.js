@@ -10,8 +10,6 @@ import MyCourses from "./components/MyCourses";
 import Skills from "./components/Skills";
 import Footer from "./components/footer";
 import Seo from "./components/Seo";
-import Loader from "./components/Loader";
-
 import { 
   Box,
   Grid,
@@ -21,19 +19,9 @@ import {
 import works from "./data/portafolio.json";
 import experiences from "./data/experience.json";
 import HerroPerfil from "./components/HerroPerfil";
-
 function App() {
-  const [loading, setLoading] = useState(true);
-  
-  useEffect(() => {
-    window.addEventListener('load', () => setLoading(false));
-  }, []);
   return (
     <>
-      {loading ? (
-        <Loader loading={loading} />
-      ) : (
-        <>
           <Seo />
           <NavBar />
           <HerroPerfil />
@@ -75,8 +63,6 @@ function App() {
           </Container>
           <Footer />
         </>
-      )}
-    </>
   );
  
 }
