@@ -2,12 +2,8 @@ import React,{useEffect} from "react";
 import AOS from 'aos';
 import perfil from'../img/perfil.jpg';
 import {
-    Container,
-    CardActionArea,
     Grid,
     Typography,
-    Card,
-    CardMedia,
     Box
 } from '@mui/material';
 const HerroPerfil = () =>{
