@@ -13,7 +13,7 @@ import Link from '@mui/material/Link';
 const pages = [
   'ABOUT ME',
   'PROJECTS',
-  'ACKNOWLEDGEMENT',
+  'RECOGNITION',
   'EXPERIENCE',
   'CONTACT',
   'My Courses',

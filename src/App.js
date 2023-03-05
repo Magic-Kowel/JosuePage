@@ -19,11 +19,13 @@ import {
 
 import works from "./data/portafolio.json";
 import experiences from "./data/experience.json";
+import HerroPerfil from "./components/HerroPerfil";
 function App() {
   return (
     <>
       <Seo />
       <NavBar />
+      <HerroPerfil />
       <Container maxWidth="md">
       <br />
       <br />
@@ -35,7 +37,7 @@ function App() {
       <hr id="PROJECTS" />
       <Title title="PROJECTS"  />
         <Box sx={{ flexGrow: 1 }}>
-          <Grid container spacing={3} justify="center">
+          <Grid container spacing={3}  justify="center">
             {works.map((work, index) => (
               <CardWork
                 work={work}
@@ -44,8 +46,8 @@ function App() {
             ))}
           </Grid>
         </Box>
-        <hr id="ACKNOWLEDGEMENT" />
-        <Title title="ACKNOWLEDGEMENT"  />
+        <hr id="RECOGNITION" />
+        <Title title="RECOGNITION"  />
         <Acknowledgement />
         <hr id="EXPERIENCE" />
         <Title title="EXPERIENCE"/>
