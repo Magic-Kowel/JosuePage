@@ -1,5 +1,5 @@
 import React from "react";
-import perfil from '../img/perfil.jpg';
+import perfil from'../img/perfil.jpg';
 import {
     Container,
     CardActionArea,
@@ -12,13 +12,7 @@ const HerroPerfil = () =>{
     return(
         <>
             <Container
-                maxWidth="lg"
-                // sx={{
-                //     height: "100vh",
-                //     backgroundImage: `url(${background})`,
-                //     backgroundSize: "cover",
-                //     backgroundPosition: "center",
-                // }}
+                maxWidth="md"
             >
                 <Grid mt={10} mb={10}  container spacing={2}>
                     <Grid item md={6}>
