@@ -24,8 +24,8 @@ function App() {
     <>
           <Seo />
           <NavBar />
-          <HerroPerfil />
           <Container maxWidth="md">
+          <HerroPerfil />
           <hr id="ABOUT ME" />
           <Title title="ABOUT ME"  />
           <AboutMe />

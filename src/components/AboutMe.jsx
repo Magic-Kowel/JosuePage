@@ -20,7 +20,7 @@ const AboutMe = () =>{
           <Grid item xs={12} md={4}>
             <Box display="flex" justifyContent="center" alignItems="center">
               <SchoolIcon
-                data-aos="fade-right"
+                data-aos="fade-down"
                 fontSize='large'
                 sx={{
                     textAlign:'center',
@@ -32,7 +32,7 @@ const AboutMe = () =>{
           </Grid>
           <Grid item xs={12} md={8}>
             <Typography
-              data-aos="fade-left"
+              data-aos="fade-down"
               variant="h5" 
               component="h3"
               sx={{
@@ -63,7 +63,7 @@ const AboutMe = () =>{
           </Grid>
           <Grid item xs={12} md={6}>
             <Typography
-                data-aos="fade-right"
+                data-aos="fade-down"
                 variant="h5" 
                 component="p"
                 align="justify"
@@ -82,7 +82,7 @@ const AboutMe = () =>{
           <Grid item xs={12} md={6}>
             <Box display="flex" justifyContent="center" alignItems="center">
               <CodeOffIcon
-                data-aos="fade-left"
+                data-aos="fade-down"
                 fontSize='large'
                 sx={{
                     textAlign:'center',

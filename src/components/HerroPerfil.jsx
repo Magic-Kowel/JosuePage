@@ -1,4 +1,5 @@
-import React from "react";
+import React,{useEffect} from "react";
+import AOS from 'aos';
 import perfil from'../img/perfil.jpg';
 import {
     Container,
@@ -6,17 +7,19 @@ import {
     Grid,
     Typography,
     Card,
-    CardMedia
+    CardMedia,
+    Box
 } from '@mui/material';
 const HerroPerfil = () =>{
+    useEffect(() => {
+        AOS.init();
+      }, [])
     return(
         <>
-            <Container
-                maxWidth="md"
-            >
-                <Grid mt={10} mb={10}  container spacing={2}>
-                    <Grid item md={6}>
-                    <Typography 
+            <Grid mt={10} mb={10}  container >
+                <Grid item md={6}>
+                    <Typography
+                        data-aos="fade-down"
                         gutterBottom={true}
                         variant="h1" 
                         component="h1"
@@ -31,28 +34,28 @@ const HerroPerfil = () =>{
                             },
                             fontWeight: 'bold'
                             }}
-                        >
-                            Josue Fierro Morfin
-                        </Typography>
-                    </Grid>
-                    <Grid  item md={6}>
-                            <Card sx={{ maxWidth: 345 }}>
-                                <CardActionArea>
-                                    <CardMedia
-                                    component="img"
-                                    image={perfil}
-                                    alt="Josue Morfin Perfil"
-                                    sx={{
-                                        borderRadius: 16,
-                                        border: 'none' 
-                                    }}
-                                    />
-                                </CardActionArea>
-                            </Card>    
-                    </Grid>
-
+                    >
+                        Josue Fierro Morfin
+                    </Typography>
                 </Grid>
-            </Container>
+                <Grid  item md={6}>
+                    <Box
+                        data-aos="fade-down"
+                        display="flex" 
+                        justifyContent="center" 
+                        alignItems="center"
+                        component="img"
+                        sx={{
+                        width: 350,
+                        maxWidth: { xs: 250, md: 350 },
+                        borderRadius:16,
+                        }}
+                        alt="Josue Morfin Perfil"
+                        src={perfil} 
+                    />
+                </Grid>
+
+            </Grid>
         </>
     )
 }
