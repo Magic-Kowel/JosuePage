@@ -25,41 +25,55 @@ function App() {
           <Seo />
           <NavBar />
           <Container maxWidth="md">
-          <HerroPerfil />
-          <hr id="ABOUT ME" />
-          <Title title="ABOUT ME"  />
-          <AboutMe />
-          <hr id="PROJECTS" />
-          <Title title="PROJECTS"  />
-            <Box sx={{ flexGrow: 1 }}>
-              <Grid container spacing={3}  justify="center">
-                {works.map((work, index) => (
-                  <CardWork
-                    work={work}
-                    key={index}
-                  />
-                ))}
-              </Grid>
-            </Box>
-            <hr id="RECOGNITION" />
-            <Title title="RECOGNITION"  />
-            <Acknowledgement />
-            <hr id="EXPERIENCE" />
-            <Title title="EXPERIENCE"/>
-
-            <TabledExperience
-              experiences={experiences}
-            />
-            <hr  id="CONTACT" />
-            <Title title="CONTACT"/>
-            <InformationContact />
-
-            <hr id="My Courses" />
-            <Title title="My Courses"/>
-            <MyCourses />
-            <hr id="SKILLS" />
-            <Title title="SKILLS"/>
-            <Skills />
+            <section>
+              <HerroPerfil />
+            </section>
+            <section>
+              <hr id="ABOUT ME" />
+              <Title title="ABOUT ME"  />
+              <AboutMe />
+            </section>
+            <main>
+              <hr id="PROJECTS" />
+              <Title title="PROJECTS"  />
+                <Box sx={{ flexGrow: 1 }}>
+                  <Grid container spacing={3}  justify="center">
+                    {works.map((work, index) => (
+                      <CardWork
+                        work={work}
+                        key={index}
+                      />
+                    ))}
+                  </Grid>
+                </Box>
+            </main>
+            <section>
+              <hr id="RECOGNITION" />
+              <Title title="RECOGNITION"  />
+              <Acknowledgement />
+            </section>
+            <section>
+              <hr id="EXPERIENCE" />
+              <Title title="EXPERIENCE"/>
+              <TabledExperience
+                experiences={experiences}
+              />
+            </section>
+            <section>
+              <hr  id="CONTACT" />
+              <Title title="CONTACT"/>
+              <InformationContact />
+            </section>
+            <section>
+              <hr id="My Courses" />
+              <Title title="My Courses"/>
+              <MyCourses />
+            </section>
+            <section>
+              <hr id="SKILLS" />
+              <Title title="SKILLS"/>
+              <Skills />
+            </section>
           </Container>
           <Footer />
         </>

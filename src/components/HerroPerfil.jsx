@@ -12,7 +12,11 @@ const HerroPerfil = () =>{
       }, [])
     return(
         <>
-            <Grid mt={10} mb={10}  container >
+            <Grid mt={10} mb={10} 
+                container
+                direction="row"
+                justifyContent="center"
+                alignItems="center" >
                 <Grid item md={6}>
                     <Typography
                         data-aos="fade-down"
@@ -34,7 +38,7 @@ const HerroPerfil = () =>{
                         Josue Fierro Morfin
                     </Typography>
                 </Grid>
-                <Grid  item md={6}>
+                <Grid  item  md={6}>
                     <Box
                         data-aos="fade-down"
                         display="flex" 
