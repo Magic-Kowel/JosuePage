@@ -45,7 +45,7 @@ const InformationContact=()=>{
                             color="text.secondary"
                             sx={{textAlign:'center'}}
                             >
-                            Manzanillo Colima
+                            Guadalajara
                             </Typography>
                         </CardContent>
                         </CardActionArea>
@@ -82,7 +82,7 @@ const InformationContact=()=>{
                         color="text.secondary"
                         sx={{textAlign:'center'}}
                         >
-                        314,128,6432
+                        33,117,38370
                         </Typography>
                     </CardContent>
                     </CardActionArea>
@@ -119,7 +119,7 @@ const InformationContact=()=>{
                         color="text.secondary"
                         sx={{textAlign:'center'}}
                         >
-                        a20170094@utem.edu.mx
+                        josue.ingeniero.ti@gmail.com
                         </Typography>
                     </CardContent>
                     </CardActionArea>
