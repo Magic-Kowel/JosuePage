@@ -48,7 +48,7 @@
         "description": "App de personajes de Rick And Morty"
     },
     {
-        "img": "/src/img/magicenghis.png",
+        "img": "/img/magicenghis.png",
         "url": "https://magicenghis.netlify.app/irregularsverbs/",
         "title": "Magicenghis",
         "description": "This is an app that helps you study English."
