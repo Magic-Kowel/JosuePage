@@ -1,6 +1,5 @@
 import React,{useEffect} from "react";
 import AOS from 'aos';
-import perfil from'../img/perfil.jpg';
 import {
     Grid,
     Typography,
@@ -51,7 +50,7 @@ const HerroPerfil = () =>{
                         borderRadius:16,
                         }}
                         alt="Josue Morfin Perfil"
-                        src={perfil} 
+                        src={"/img/perfil.jpg"} 
                     />
                 </Grid>
 
